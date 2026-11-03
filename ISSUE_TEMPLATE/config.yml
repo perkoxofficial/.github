@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CI status & build logs
+    url: https://ci-dispatcher-51-68-240-52.sslip.io/health
+    about: Check ovh-ci dispatcher health

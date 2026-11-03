@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a bug or broken behavior
+title: "[bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      placeholder: Steps to reproduce; expected vs actual
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      placeholder: repo, version, device/OS
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / evidence
+      placeholder: CI log, stack trace, screenshot
